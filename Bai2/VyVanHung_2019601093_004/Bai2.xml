@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<DoAnTotNghiep so="121">
+    <SinhVien>
+        <HoTen>Nguyen Van Bac</HoTen>
+        <Lop>HTTT2-K10</Lop>
+        <Khoa>10</Khoa>
+        <TrungTam>CNTT</TrungTam>
+        <GVHD>Tran Thanh Hung</GVHD>
+        <NoiDung>
+            <BanVe>
+                <STT>1</STT>
+                <TenBanVe>A</TenBanVe>
+                <KhoGiay>A3</KhoGiay>
+                <SoLuong>5</SoLuong>
+            </BanVe>
+            <BanVe>
+                <STT>2</STT>
+                <TenBanVe>B</TenBanVe>
+                <KhoGiay>A4</KhoGiay>
+                <SoLuong>5</SoLuong>
+            </BanVe>
+            <BanVe>
+                <STT>3</STT>
+                <TenBanVe>C</TenBanVe>
+                <KhoGiay>A1</KhoGiay>
+                <SoLuong>1</SoLuong>
+            </BanVe>
+            <BanVe>
+                <STT>4</STT>
+                <TenBanVe>D</TenBanVe>
+                <KhoGiay>A0</KhoGiay>
+                <SoLuong>1</SoLuong>
+            </BanVe>
+        </NoiDung>
+        <Ngay>
+            <GiaoDe>2-9-2017</GiaoDe>
+            <HoanThanh>3-9-2017</HoanThanh>
+        </Ngay>
+    </SinhVien>
+</DoAnTotNghiep>

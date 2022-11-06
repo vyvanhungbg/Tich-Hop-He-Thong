@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<danhsachkhachhang>
+  <khachhang makh="111111" chinhanh="HaNoi">
+    <hoten>Nguyen Dang Khanh</hoten>
+    <diachi>Thai nguyen</diachi>
+    <sodt>0999999999</sodt>
+  </khachhang>
+  <khachhang makh="111112" chinhanh="ThaiNguyen">
+    <hoten>Pham Ba Thanh</hoten>
+    <diachi>Ha chau</diachi>
+    <sodt>09988899898</sodt>
+  </khachhang>
+</danhsachkhachhang>

@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<danhsachkhachhang>
+  <khachhang makh="111111" chinhanh="HaNoi">
+    <hoten>Nguyen Lan Duy</hoten>
+    <diachi>Soc Son</diachi>
+    <sodt>0327069844</sodt>
+  </khachhang>
+  <khachhang makh="111112" chinhanh="ThaiBinh">
+    <hoten>Nguyen Duc Ana</hoten>
+    <diachi>Thai Thuy</diachi>
+    <sodt>0327069844</sodt>
+  </khachhang>
+  <khachhang makh="111113" chinhanh="HungYen">
+    <hoten>Le Minh Hieu</hoten>
+    <diachi>Hung Yen</diachi>
+    <sodt>0327069844</sodt>
+  </khachhang>
+</danhsachkhachhang>

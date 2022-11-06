@@ -1,0 +1,17 @@
+<danhsachsach>
+  <sach mas="1" nhaxb="NXB GD">
+    <tensach>2</tensach>
+    <giaban>3</giaban>
+    <tacgia>3</tacgia>
+  </sach>
+  <sach mas="2" nhaxb="NXB GD">
+    <tensach>2</tensach>
+    <giaban>5</giaban>
+    <tacgia>5</tacgia>
+  </sach>
+  <sach mas="5" nhaxb="NXB KĐ">
+    <tensach>57</tensach>
+    <giaban>57</giaban>
+    <tacgia>7</tacgia>
+  </sach>
+</danhsachsach>

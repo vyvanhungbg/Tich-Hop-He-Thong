@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<DSHD>
+    <HD NgayBan="2015-11-09" MaHD = "HD1">
+        <LoaiHang MaLoaiHang="H1" TenLoaiHang="Dien tu">
+            <Hang MaHang ="H1">
+                <TenHang>Ti Vi</TenHang>
+                <SoLuong>60</SoLuong>
+                <DonViTinh>Chiec</DonViTinh>
+                <DonGia>60000000</DonGia>
+            </Hang>
+
+            <Hang MaHang ="H2">
+                <TenHang>Tủ lạnh</TenHang>
+                <SoLuong>80</SoLuong>
+                <DonViTinh>Chiec</DonViTinh>
+                <DonGia>42000000</DonGia>
+            </Hang>
+        </LoaiHang>
+    </HD>
+</DSHD>

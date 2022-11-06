@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<bangdiem>
+  <sinhvien masv="1111" monhoc="Lập trình Windows">
+    <diemlan1>3</diemlan1>
+    <diemlan2>8</diemlan2>
+  </sinhvien>
+  <sinhvien masv="1112" monhoc="Lập trình Windowss">
+    <diemlan1>4</diemlan1>
+    <diemlan2>8</diemlan2>
+  </sinhvien>
+  <sinhvien masv="1113" monhoc="Lập trình Windowsss">
+    <diemlan1>5</diemlan1>
+    <diemlan2>8</diemlan2>
+  </sinhvien>
+  <sinhvien masv="1113" monhoc="Lập trình Windowsss">
+    <diemlan1>4</diemlan1>
+    <diemlan2>5</diemlan2>
+  </sinhvien>
+  <sinhvien masv="1" monhoc="Lập trình Windows">
+    <diemlan1>3</diemlan1>
+    <diemlan2>9</diemlan2>
+  </sinhvien>
+</bangdiem>

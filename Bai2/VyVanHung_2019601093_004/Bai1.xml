@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<KQHT>
+    <NamHoc>2019</NamHoc>
+    <Lop malop="KTPM5-K9" gvcn="Tran Mai Linh"/>
+    <SinhVien>
+        <HoTen>Nguyen Viet Duc</HoTen>
+        <NgaySinh>5/3/1997</NgaySinh>
+        <DSMONHOC>
+            <MonHoc>
+                <STT>1</STT>
+                <TenMonHoc>Toan</TenMonHoc>
+                <Diem>
+                    <Lan1>5</Lan1>
+                    <Lan2>6</Lan2>
+                    <CaNam>8</CaNam>
+                </Diem>
+            </MonHoc>
+            <MonHoc>
+                <STT>2</STT>
+                <TenMonHoc>Van</TenMonHoc>
+                <Diem>
+                    <Lan1>7</Lan1>
+                    <Lan2>8</Lan2>
+                    <CaNam>4</CaNam>
+                </Diem>
+            </MonHoc>
+            <MonHoc>
+                <STT>3</STT>
+                <TenMonHoc>NgoaiNgu</TenMonHoc>
+                <Diem>
+                    <Lan1>3</Lan1>
+                    <Lan2>5</Lan2>
+                    <CaNam>5</CaNam>
+                </Diem>
+            </MonHoc>
+            <MonHoc>
+                <STT>4</STT>
+                <TenMonHoc>Su</TenMonHoc>
+                <Diem>
+                    <Lan1>2</Lan1>
+                    <Lan2>5</Lan2>
+                    <CaNam>3</CaNam>
+                </Diem>
+            </MonHoc>
+            <MonHoc>
+                <STT>5</STT>
+                <TenMonHoc>Sinh</TenMonHoc>
+                <Diem>
+                    <Lan1>8</Lan1>
+                    <Lan2>8</Lan2>
+                    <CaNam>4</CaNam>
+                </Diem>
+            </MonHoc>
+            <MonHoc>
+                <STT>6</STT>
+                <TenMonHoc>Tong ket</TenMonHoc>
+                <Diem>
+                    <Lan1>6</Lan1>
+                    <Lan2>7</Lan2>
+                    <CaNam>7</CaNam>
+                </Diem>
+            </MonHoc>
+        </DSMONHOC>
+        <XepLoai>
+            <HocLuc>Trung Binh</HocLuc>
+            <HanhKiem>Kha</HanhKiem>
+        </XepLoai>
+    </SinhVien>
+</KQHT>

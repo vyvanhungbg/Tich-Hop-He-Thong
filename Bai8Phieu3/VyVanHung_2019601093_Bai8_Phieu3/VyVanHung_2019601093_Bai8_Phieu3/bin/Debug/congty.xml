@@ -1,0 +1,46 @@
+<congty>
+  <nhanvien manv="1">
+    <hoten>6</hoten>
+    <tuoi>6</tuoi>
+    <luong>6</luong>
+    <diachi>
+      <xa>6</xa>
+      <huyen>6</huyen>
+      <tinh>6</tinh>
+    </diachi>
+    <dienthoai>6</dienthoai>
+  </nhanvien>
+  <nhanvien manv="2">
+    <hoten>2</hoten>
+    <tuoi>2</tuoi>
+    <luong>2</luong>
+    <diachi>
+      <xa>2</xa>
+      <huyen>2</huyen>
+      <tinh>2</tinh>
+    </diachi>
+    <dienthoai>2</dienthoai>
+  </nhanvien>
+  <nhanvien manv="3">
+    <hoten>2</hoten>
+    <tuoi>2</tuoi>
+    <luong>2</luong>
+    <diachi>
+      <xa>2</xa>
+      <huyen>2</huyen>
+      <tinh>2</tinh>
+    </diachi>
+    <dienthoai>2</dienthoai>
+  </nhanvien>
+  <nhanvien manv="4">
+    <hoten>2</hoten>
+    <tuoi>2</tuoi>
+    <luong>2</luong>
+    <diachi>
+      <xa>2</xa>
+      <huyen>2</huyen>
+      <tinh>2</tinh>
+    </diachi>
+    <dienthoai>2</dienthoai>
+  </nhanvien>
+</congty>

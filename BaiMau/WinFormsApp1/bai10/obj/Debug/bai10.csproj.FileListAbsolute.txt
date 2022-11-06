@@ -1,0 +1,10 @@
+C:\Users\IT Supporter\Desktop\WinFormsApp1\bai10\bin\Debug\bai10.exe.config
+C:\Users\IT Supporter\Desktop\WinFormsApp1\bai10\bin\Debug\bai10.exe
+C:\Users\IT Supporter\Desktop\WinFormsApp1\bai10\bin\Debug\bai10.pdb
+C:\Users\IT Supporter\Desktop\WinFormsApp1\bai10\obj\Debug\bai10.csproj.AssemblyReference.cache
+C:\Users\IT Supporter\Desktop\WinFormsApp1\bai10\obj\Debug\bai10.Form1.resources
+C:\Users\IT Supporter\Desktop\WinFormsApp1\bai10\obj\Debug\bai10.Properties.Resources.resources
+C:\Users\IT Supporter\Desktop\WinFormsApp1\bai10\obj\Debug\bai10.csproj.GenerateResource.cache
+C:\Users\IT Supporter\Desktop\WinFormsApp1\bai10\obj\Debug\bai10.csproj.CoreCompileInputs.cache
+C:\Users\IT Supporter\Desktop\WinFormsApp1\bai10\obj\Debug\bai10.exe
+C:\Users\IT Supporter\Desktop\WinFormsApp1\bai10\obj\Debug\bai10.pdb

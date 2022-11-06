@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QLSV xmlns="http://tempuri.org/XMLSchema2.xsd">
+    <SinhVien MaSV="SV01">
+        <HoTen>Nguyễn Văn Tuấn</HoTen>
+        <NgaySinh>1998-08-12</NgaySinh>
+        <GioiTinh>Nam</GioiTinh>
+        <Que>Hà Nội</Que>
+        <TrinhDo>Đại học</TrinhDo>
+        <HeSoDiem>3.12</HeSoDiem>
+    </SinhVien>
+    <SinhVien MaSV="SV02">
+        <HoTen>Nguyễn Tuấn Anh</HoTen>
+        <NgaySinh>1998-08-12</NgaySinh>
+        <GioiTinh>Nam</GioiTinh>
+        <Que>Hà Nội</Que>
+        <TrinhDo>Đại học</TrinhDo>
+        <HeSoDiem>3.12</HeSoDiem>
+    </SinhVien>
+</QLSV>

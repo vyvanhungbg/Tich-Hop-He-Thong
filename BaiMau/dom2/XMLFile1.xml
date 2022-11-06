@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<danhsachkhachhang>
+  <khachhang makh="111111" chinhanh="HaNoi">
+    <hoten>khanh hhhh</hoten>
+    <diachi>tn</diachi>
+    <sodt>000</sodt>
+  </khachhang>
+  <khachhang makh="111112" chinhanh="HaNoi1">
+    <hoten>fsadfsd</hoten>
+    <diachi>dsafasdf</diachi>
+    <sodt>sấd</sodt>
+    <khachhang makh="111112" chinhanh="HaNoi2">
+      <hoten>fasdfsad</hoten>
+      <diachi>ádfsad</diachi>
+      <sodt>fdsafsad</sodt>
+    </khachhang>
+  </khachhang>
+</danhsachkhachhang>

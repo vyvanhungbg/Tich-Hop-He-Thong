@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<thongtincuocgoi>
+  <cuocgoi chinhanh="Hoan Kiem" sodien="0987654321">
+    <sogoiden>012365</sogoiden>
+    <ngaygoi>12-02-02</ngaygoi>
+    <sophut>10</sophut>
+  </cuocgoi>
+  <cuocgoi chinhanh="Dong Da" sodien="0123456789">
+    <sogoiden>0236598569</sogoiden>
+    <ngaygoi>1998-12-01</ngaygoi>
+    <sophut>2</sophut>
+  </cuocgoi>
+  <cuocgoi chinhanh="Hoan Kiem" sodien="0987654321">
+    <sogoiden>0236598569</sogoiden>
+    <ngaygoi>1998-12-01</ngaygoi>
+    <sophut>2</sophut>
+  </cuocgoi>
+</thongtincuocgoi>

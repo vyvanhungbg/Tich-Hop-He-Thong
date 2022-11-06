@@ -1,0 +1,44 @@
+{
+  "format": 1,
+  "restore": {
+    "D:\\TichHopHeThongPM\\BaiMau\\dom1\\dom1.csproj": {}
+  },
+  "projects": {
+    "D:\\TichHopHeThongPM\\BaiMau\\dom1\\dom1.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\TichHopHeThongPM\\BaiMau\\dom1\\dom1.csproj",
+        "projectName": "dom1",
+        "projectPath": "D:\\TichHopHeThongPM\\BaiMau\\dom1\\dom1.csproj",
+        "packagesPath": "C:\\Users\\VyHung\\.nuget\\packages\\",
+        "outputPath": "D:\\TichHopHeThongPM\\BaiMau\\dom1\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\VyHung\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net50-windows"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net50-windows": {
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net50-windows": {}
+      }
+    }
+  }
+}

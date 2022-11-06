@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema  id="XMLSchema2"
+ targetNamespace="http://tempuri.org/XMLSchema2.xsd"
+ elementFormDefault="qualified"
+  xmlns="http://tempuri.org/XMLSchema2.xsd"
+   xmlns:xstns="http://tempuri.org/XMLSchema2.xsd"
+   xmlns:xs="http://www.w3.org/2001/XMLSchema"
+    >
+
+    <xs:simpleType name="mhType">
+        <xs:restriction base="xs:string">
+            <xs:pattern value="[a-zA-Z0-9]{6}"></xs:pattern>
+        </xs:restriction>
+    </xs:simpleType>
+
+    <xs:simpleType name="dgType">
+        <xs:restriction base="xs:decimal">
+            <xs:minInclusive value="0"></xs:minInclusive>
+        </xs:restriction>
+    </xs:simpleType>
+
+    <xs:simpleType name="dvtType">
+        <xs:restriction base="xs:string">
+            <xs:enumeration value="Gói"></xs:enumeration>
+            <xs:enumeration value="Hộp"></xs:enumeration>
+            <xs:enumeration value="Chiếc"></xs:enumeration>
+        </xs:restriction>
+    </xs:simpleType>
+
+    <xs:complexType name="hType">
+        <xs:sequence>
+            <xs:element name="TenHang" type="xs:string"></xs:element>
+            <xs:element name="SoLuong" type="xs:integer"></xs:element>
+            <xs:element name="DonViTinh" type="xstns:dvtType"></xs:element>
+            <xs:element name="DonGia" type="xstns:dgType"></xs:element>
+        </xs:sequence>
+        <xs:attribute name="Ma" type="mhType" use="required"></xs:attribute>
+   </xs:complexType>
+
+    <xs:complexType name="lhType">
+        <xs:sequence>
+            <xs:element name="Hang" type="xstns:hType" minOccurs="0" maxOccurs="unbounded"></xs:element>
+        </xs:sequence>
+        <xs:attribute name="MaLoaiHang" type="xs:string" use="required"></xs:attribute>
+        <xs:attribute name="TenLoaiHang" type="xs:string" use="required"></xs:attribute>
+    </xs:complexType>
+
+    <xs:complexType name="hdType">
+        <xs:sequence>
+            <xs:element name="LoaiHang" type="xstns:lhType" minOccurs="0" maxOccurs="10"></xs:element>
+        </xs:sequence>
+        <xs:attribute name="MaHD" type="xs:string" use="required"></xs:attribute>
+        <xs:attribute name="NgayBan" type="xs:string" use="required"></xs:attribute>
+    </xs:complexType>
+
+
+
+    <xs:complexType name="DSHD">
+        <xs:sequence>
+            <xs:element name="HD" type="xstns:hdType" minOccurs="0" maxOccurs="4"></xs:element>
+        </xs:sequence>
+    </xs:complexType>
+
+    <xs:element name="DSHD" type="xstns:DSHD" ></xs:element>
+</xs:schema>

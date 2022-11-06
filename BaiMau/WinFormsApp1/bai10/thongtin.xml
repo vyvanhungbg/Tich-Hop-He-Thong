@@ -1,0 +1,33 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<danhsachkhachhang>
+  <khachhang makh="111111" chinhanh="HaNoi">
+    <hoten>khanh</hoten>
+    <diachi>tnsdsdf</diachi>
+    <sodt>132456798</sodt>
+  </khachhang>
+  <khachhang makh="111111" chinhanh="HaNoi">
+    <hoten>khanh</hoten>
+    <diachi>tnsdsdf</diachi>
+    <sodt>132456798</sodt>
+  </khachhang>
+  <khachhang makh="111111" chinhanh="HaNoi">
+    <hoten>khanh</hoten>
+    <diachi>tnsdsdf</diachi>
+    <sodt>132456798</sodt>
+  </khachhang>
+  <khanhhang makh="1111112" chinhanh="HaNoi">
+    <hoten>khanh</hoten>
+    <diachi>tnsdsdf</diachi>
+    <sodt>132456798</sodt>
+  </khanhhang>
+  <khanhhang makh="fsaf" chinhanh="HaNoi">
+    <hoten>dsfafs</hoten>
+    <diachi>fdsafsds</diachi>
+    <sodt>sdfsafs</sodt>
+  </khanhhang>
+  <khanhhang makh="dasf" chinhanh="HaNoi">
+    <hoten>sfda</hoten>
+    <diachi>sfad</diachi>
+    <sodt>safd</sodt>
+  </khanhhang>
+</danhsachkhachhang>

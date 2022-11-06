@@ -1,0 +1,8 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Class xmlns="http://tempuri.org/Bai1.xsd">
+	<Student Sid="s001">
+		<Name>nguyen khanh</Name>
+		<Dob>77-77-77</Dob>
+		<Mark>9</Mark>
+	</Student>
+</Class>

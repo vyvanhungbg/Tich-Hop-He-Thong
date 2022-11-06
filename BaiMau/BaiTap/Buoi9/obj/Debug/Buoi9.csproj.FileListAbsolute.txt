@@ -1,0 +1,10 @@
+C:\Users\Nguyen Duy\Desktop\DOM\BaiTap\Buoi9\obj\Debug\Buoi9.csproj.AssemblyReference.cache
+C:\Users\Nguyen Duy\Desktop\DOM\BaiTap\Buoi9\obj\Debug\Buoi9.Form1.resources
+C:\Users\Nguyen Duy\Desktop\DOM\BaiTap\Buoi9\obj\Debug\Buoi9.Properties.Resources.resources
+C:\Users\Nguyen Duy\Desktop\DOM\BaiTap\Buoi9\obj\Debug\Buoi9.csproj.GenerateResource.cache
+C:\Users\Nguyen Duy\Desktop\DOM\BaiTap\Buoi9\obj\Debug\Buoi9.csproj.CoreCompileInputs.cache
+C:\Users\Nguyen Duy\Desktop\DOM\BaiTap\Buoi9\bin\Debug\Buoi9.exe.config
+C:\Users\Nguyen Duy\Desktop\DOM\BaiTap\Buoi9\bin\Debug\Buoi9.exe
+C:\Users\Nguyen Duy\Desktop\DOM\BaiTap\Buoi9\bin\Debug\Buoi9.pdb
+C:\Users\Nguyen Duy\Desktop\DOM\BaiTap\Buoi9\obj\Debug\Buoi9.exe
+C:\Users\Nguyen Duy\Desktop\DOM\BaiTap\Buoi9\obj\Debug\Buoi9.pdb

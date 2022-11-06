@@ -1,0 +1,44 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="Bai1"
+    targetNamespace="http://tempuri.org/Bai1.xsd"
+    elementFormDefault="qualified"
+    xmlns="http://tempuri.org/Bai1.xsd"
+    xmlns:mstns="http://tempuri.org/Bai1.xsd"
+    xmlns:xs="http://www.w3.org/2001/XMLSchema"
+>
+	<xs:simpleType name="sidType">
+		<xs:restriction base="xs:string">
+			<xs:pattern value="^[sS][0-9]{3}"></xs:pattern>
+		</xs:restriction>
+	</xs:simpleType>
+	<xs:simpleType name="nameType">
+		<xs:restriction base="xs:string">
+			<xs:pattern value="[a-zA-Z ]{2,}"></xs:pattern>
+		</xs:restriction>
+	</xs:simpleType>
+	<xs:simpleType name="dobType">
+		<xs:restriction base="xs:string">
+			<xs:pattern value="\d{2}-\d{2}-\d{2}"></xs:pattern>
+		</xs:restriction>
+	</xs:simpleType>
+	<xs:simpleType name="markType">
+		<xs:restriction base="xs:int">
+			<xs:maxExclusive value ="10"></xs:maxExclusive>
+			<xs:minExclusive value="1"></xs:minExclusive>
+		</xs:restriction>
+	</xs:simpleType>
+	<xs:complexType name="studentType">
+		<xs:sequence>
+			<xs:element name="Name" type="nameType"></xs:element>
+			<xs:element name="Dob" type="dobType"></xs:element>
+			<xs:element name ="Mark" type="markType"></xs:element>
+		</xs:sequence>
+		<xs:attribute name="Sid" type="sidType" use="required"></xs:attribute>
+	</xs:complexType>
+	<xs:complexType name="classType">
+		<xs:sequence>
+			<xs:element name="Student" type ="studentType"></xs:element>
+		</xs:sequence>
+	</xs:complexType>
+	<xs:element name="Class" type="classType"></xs:element>
+</xs:schema>

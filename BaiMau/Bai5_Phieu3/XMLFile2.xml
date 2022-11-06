@@ -1,0 +1,34 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<?xml-stylesheet type="text/xsl" href="XSLTFile2.xslt"?>
+<Lop xmlns="http://tempuri.org/XMLSchema2.xsd">
+	<SV>
+		<MaSV>sv01</MaSV>
+		<MaMH>THDC</MaMH>
+		<DiemThi>8</DiemThi>
+	</SV>
+	<SV>
+		<MaSV>sv02</MaSV>
+		<MaMH>THDC</MaMH>
+		<DiemThi>9</DiemThi>
+	</SV>
+	<SV>
+		<MaSV>sv03</MaSV>
+		<MaMH>THVP</MaMH>
+		<DiemThi>8.5</DiemThi>
+	</SV>
+	<SV>
+		<MaSV>sv04</MaSV>
+		<MaMH>THVP</MaMH>
+		<DiemThi>4</DiemThi>
+	</SV>
+	<SV>
+		<MaSV>sv01</MaSV>
+		<MaMH>THVP</MaMH>
+		<DiemThi>8</DiemThi>
+	</SV>
+	<SV>
+		<MaSV>sv02</MaSV>
+		<MaMH>THDC</MaMH>
+		<DiemThi>9.5</DiemThi>
+	</SV>
+</Lop>

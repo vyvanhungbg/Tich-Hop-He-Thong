@@ -1,0 +1,28 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="XMLSchema2"
+    targetNamespace="http://tempuri.org/XMLSchema2.xsd"
+    elementFormDefault="qualified"
+    xmlns="http://tempuri.org/XMLSchema2.xsd"
+    xmlns:mstns="http://tempuri.org/XMLSchema2.xsd"
+    xmlns:xs="http://www.w3.org/2001/XMLSchema"
+>
+	<xs:simpleType name="diemType">
+		<xs:restriction base="xs:double">
+			<xs:maxExclusive value="10"></xs:maxExclusive>
+			<xs:minExclusive value="0"></xs:minExclusive>
+		</xs:restriction>
+	</xs:simpleType>
+	<xs:complexType name="svType">
+		<xs:sequence>
+			<xs:element name="MaSV" type="xs:string"></xs:element>
+			<xs:element name="MaMH" type="xs:string"></xs:element>
+			<xs:element name="DiemThi" type="diemType"></xs:element>
+		</xs:sequence>
+	</xs:complexType>
+	<xs:complexType name="lopType">
+		<xs:sequence>
+			<xs:element name="SV" type="svType" maxOccurs="unbounded" ></xs:element>
+		</xs:sequence>
+	</xs:complexType>
+	<xs:element name="Lop" type ="lopType"></xs:element>
+</xs:schema>

@@ -1,0 +1,50 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="XMLSchema1"
+    targetNamespace="http://tempuri.org/XMLSchema1.xsd"
+    elementFormDefault="qualified"
+    xmlns="http://tempuri.org/XMLSchema1.xsd"
+    xmlns:mstns="http://tempuri.org/XMLSchema1.xsd"
+    xmlns:xs="http://www.w3.org/2001/XMLSchema"
+>
+  <xs:simpleType name="maType">
+    <xs:restriction base="xs:string">
+      <xs:maxLength value="10"></xs:maxLength>
+      <xs:minLength value="1"></xs:minLength>
+    
+    </xs:restriction>
+  </xs:simpleType>
+
+  <xs:complexType name="hangType" >
+    <xs:sequence>
+      <xs:element name="TenHang" type="xs:string"></xs:element>
+      <xs:element name="SoLuong" type="xs:string"></xs:element>
+      <xs:element name="DonViTinh" type="xs:string"></xs:element>
+      <xs:element name="DonGia" type="xs:int"></xs:element>
+    </xs:sequence>
+    <xs:attribute name="MaHang" type="maType" use="required" ></xs:attribute>
+  </xs:complexType>
+
+  <xs:complexType name="LoaiHangType">
+    <xs:sequence>
+      <xs:element name="Hang" type="hangType" minOccurs="2" maxOccurs="unbounded"></xs:element>
+    </xs:sequence>
+    <xs:attribute name="MaLoai" type="xs:string" use="required"></xs:attribute>
+    <xs:attribute name="TenLoai" type="xs:string" use="required"></xs:attribute>
+  </xs:complexType>
+
+  <xs:complexType name="typeHoaDon">
+    <xs:sequence>
+      <xs:element name="MaHD" type="xs:string"></xs:element>
+      <xs:element name="NgayBan" type="xs:string"></xs:element>
+      <xs:element name="LoaiHang" type="LoaiHangType"></xs:element>
+    </xs:sequence>
+  </xs:complexType>
+
+  <xs:complexType name="typeDS">
+    <xs:sequence>
+      <xs:element name="HoaDon" type="typeHoaDon"></xs:element>
+    </xs:sequence>
+  </xs:complexType>
+
+  <xs:element name="DS" type="typeDS"></xs:element>
+</xs:schema>

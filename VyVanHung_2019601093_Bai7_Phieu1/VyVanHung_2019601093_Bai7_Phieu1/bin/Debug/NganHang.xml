@@ -1,0 +1,23 @@
+<nganhang>
+  <taikhoan>
+    <sotaikhoan>12</sotaikhoan>
+    <tentaikhoan>2</tentaikhoan>
+    <diachi>Hà Nội</diachi>
+    <dienthoai>3</dienthoai>
+    <sotien>12</sotien>
+  </taikhoan>
+  <taikhoan>
+    <sotaikhoan>1</sotaikhoan>
+    <tentaikhoan>1</tentaikhoan>
+    <diachi>Hà Nội</diachi>
+    <dienthoai>4</dienthoai>
+    <sotien>1</sotien>
+  </taikhoan>
+  <taikhoan>
+    <sotaikhoan>2</sotaikhoan>
+    <tentaikhoan>1</tentaikhoan>
+    <diachi>Hà Nội</diachi>
+    <dienthoai>1</dienthoai>
+    <sotien>2</sotien>
+  </taikhoan>
+</nganhang>
