@@ -1,0 +1,6 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<?xml-stylesheet type = "text/xsl" href="XSLTFile1.xslt"?>
+<Nguoi ID="1" xmlns="http://tempuri.org/XMLSchema2.xsd">
+  <Ten>Hung</Ten>
+  <Tuoi>9</Tuoi>
+</Nguoi>

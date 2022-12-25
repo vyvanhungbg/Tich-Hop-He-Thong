@@ -1,7 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <?xml-stylesheet type = "text/xsl" href="XSLTFile1.xslt"?>
 <DS xmlns="http://tempuri.org/XMLSchema1.xsd">
- 
   <HoaDon>
     <MaHD>HD1</MaHD>
     <NgayBan>25-11-09</NgayBan>
@@ -21,5 +20,4 @@
       </Hang>
     </LoaiHang>
   </HoaDon>
-  
 </DS>

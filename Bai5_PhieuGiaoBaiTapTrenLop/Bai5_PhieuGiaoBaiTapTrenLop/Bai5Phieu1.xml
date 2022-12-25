@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<?xml-stylesheet type="text/xsl" href ="Bai5Phieu1.xslt"?>
+<DSSV xmlns="http://tempuri.org/Bai5Phieu1.xsd">
+  <SinhVien Tien="123">
+    <STT>1</STT>
+    <MaSv>sv02</MaSv>
+    <TenSv>Phan Tuấn Cường</TenSv>
+    <GioiTinh>Nam</GioiTinh>
+    <NgaySinh>03/03/1993</NgaySinh>
+    <MaLop>CNTT14</MaLop>
+  </SinhVien>
+
+  <SinhVien Tien="125">
+    <STT>2</STT>
+    <MaSv>sv02</MaSv>
+    <TenSv>Huỳnh Chí Tâm</TenSv>
+    <GioiTinh>Nam</GioiTinh>
+    <NgaySinh>08/03/1993</NgaySinh>
+    <MaLop>CNTT14</MaLop>
+  </SinhVien>
+</DSSV>

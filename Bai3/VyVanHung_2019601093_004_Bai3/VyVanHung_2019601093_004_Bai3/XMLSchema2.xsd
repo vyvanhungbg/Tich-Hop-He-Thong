@@ -1,0 +1,33 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="XMLSchema2"
+    targetNamespace="http://tempuri.org/XMLSchema2.xsd"
+    elementFormDefault="qualified"
+    xmlns="http://tempuri.org/XMLSchema2.xsd"
+    xmlns:mstns="http://tempuri.org/XMLSchema2.xsd"
+    xmlns:xs="http://www.w3.org/2001/XMLSchema"
+>
+
+  <xs:simpleType name="TenType">
+    <xs:restriction base="xs:string">
+      <xs:maxLength value="10"></xs:maxLength>
+      <xs:minLength value="2"></xs:minLength>
+    </xs:restriction>
+  </xs:simpleType>
+
+  <xs:simpleType name="TuoiType">
+    <xs:restriction base="xs:int">
+      <xs:minExclusive value="1"></xs:minExclusive>
+      <xs:maxExclusive value="10"></xs:maxExclusive>
+    </xs:restriction>
+  </xs:simpleType>
+
+  <xs:complexType name="NguoiType">
+    <xs:sequence>
+      <xs:element name="Ten" type="mstns:TenType"></xs:element>
+      <xs:element name="Tuoi" type="mstns:TuoiType"></xs:element>
+    </xs:sequence>
+    <xs:attribute name="ID" type="xs:int"></xs:attribute>
+  </xs:complexType>
+
+  <xs:element name="Nguoi" type="mstns:NguoiType"></xs:element>
+</xs:schema>

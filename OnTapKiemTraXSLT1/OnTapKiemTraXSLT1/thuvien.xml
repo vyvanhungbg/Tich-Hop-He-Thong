@@ -1,0 +1,39 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<?xml-stylesheet type="text/xsl" href="thuvien.xslt"?>
+<TV xmlns="http://tempuri.org/thuvien.xsd">
+  <NhaXB TenNXB="Giáo dục">
+    <Sach MaSach="S001">
+      <TenSach>Tin văn phòng</TenSach>
+      <TheLoai>Tin học</TheLoai>
+      <SoTrang>120</SoTrang>
+    </Sach>
+    <Sach MaSach="S002">
+      <TenSach>Kế toán doanh nghiệp</TenSach>
+      <TheLoai>Tin học</TheLoai>
+      <SoTrang>250</SoTrang>
+    </Sach>
+    <Sach MaSach="S003">
+      <TenSach>ABC</TenSach>
+      <TheLoai>Kinh tế</TheLoai>
+      <SoTrang>180</SoTrang>
+    </Sach>
+  </NhaXB>
+
+  <NhaXB TenNXB="Tuổi trẻ">
+    <Sach MaSach="S007">
+      <TenSach>Tin văn phòng</TenSach>
+      <TheLoai>Tin học</TheLoai>
+      <SoTrang>120</SoTrang>
+    </Sach>
+    <Sach MaSach="S004">
+      <TenSach>Kế toán doanh nghiệp</TenSach>
+      <TheLoai>Tin học</TheLoai>
+      <SoTrang>250</SoTrang>
+    </Sach>
+    <Sach MaSach="S005">
+      <TenSach>ABC</TenSach>
+      <TheLoai>Kinh tế</TheLoai>
+      <SoTrang>180</SoTrang>
+    </Sach>
+  </NhaXB>
+</TV>

@@ -1,0 +1,3 @@
+﻿﻿Stylesheet load time: 223.0 ms
+Stylesheet JIT time: 7.722 ms
+Stylesheet execution time: 62.11 ms

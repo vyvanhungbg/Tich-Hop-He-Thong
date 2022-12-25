@@ -75,12 +75,16 @@
     <None Include="XMLSchema1.xsd">
       <SubType>Designer</SubType>
     </None>
+    <None Include="XMLSchema2.xsd">
+      <SubType>Designer</SubType>
+    </None>
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="XMLFile1.xml" />
+    <Content Include="XMLFile2.xml" />
     <Content Include="XSLTFile1.xslt">
       <SubType>Designer</SubType>
     </Content>

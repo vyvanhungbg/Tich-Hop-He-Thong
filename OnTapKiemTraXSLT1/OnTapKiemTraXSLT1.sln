@@ -1,0 +1,27 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.28803.916
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OnTapKiemTraXSLT1", "OnTapKiemTraXSLT1\OnTapKiemTraXSLT1.csproj", "{E00399EC-57C9-44C1-9FF2-DA1550ADE8AA}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{9B409116-239D-4A7D-8D3A-21B559182F92}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{E00399EC-57C9-44C1-9FF2-DA1550ADE8AA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E00399EC-57C9-44C1-9FF2-DA1550ADE8AA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E00399EC-57C9-44C1-9FF2-DA1550ADE8AA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E00399EC-57C9-44C1-9FF2-DA1550ADE8AA}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {7C438C7E-C299-46E0-8F9A-5419ED181A59}
+	EndGlobalSection
+EndGlobal

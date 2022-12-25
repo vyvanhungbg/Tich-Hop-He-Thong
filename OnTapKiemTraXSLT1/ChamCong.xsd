@@ -1,0 +1,68 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema targetNamespace="http://tempuri.org/XMLSchema.xsd"
+    elementFormDefault="qualified"
+    xmlns="http://tempuri.org/XMLSchema.xsd"
+    xmlns:mstns="http://tempuri.org/XMLSchema.xsd"
+    xmlns:xs="http://www.w3.org/2001/XMLSchema"
+>
+
+  <xs:simpleType name="MaNVType">
+    <xs:restriction base="xs:string">
+      <xs:pattern value="[a-zA-Z0-9]{5,}"></xs:pattern>
+    </xs:restriction>
+  </xs:simpleType>
+
+  <xs:simpleType name="CaLamViecType">
+    <xs:restriction base="xs:string">
+      <xs:enumeration value="C1"></xs:enumeration>
+      <xs:enumeration value="C2"></xs:enumeration>
+      <xs:enumeration value="C3"></xs:enumeration>
+    </xs:restriction>
+  </xs:simpleType>
+
+  <xs:simpleType name="GioVaoType">
+    <xs:restriction base="xs:string">
+      <xs:pattern value="[0-9]{2}[:][0-9]{2}"></xs:pattern>
+    </xs:restriction>
+  </xs:simpleType>
+
+
+  <xs:simpleType name="NgayType">
+    <xs:restriction base="xs:string">
+      <xs:pattern value="[0-9]{2}[/][0-9]{2}[/][0-9]{2}"></xs:pattern>
+    </xs:restriction>
+  </xs:simpleType>
+
+  <xs:complexType name="NhanVienType">
+    <xs:sequence>
+      <xs:element name="CaLamViec" type="CaLamViecType"></xs:element>
+      <xs:element name="GioVao" type="GioVaoType"></xs:element>
+      <xs:element name="GioRa" type="GioVaoType"></xs:element>
+    </xs:sequence>
+    <xs:attribute name="MaNV" type="MaNVType"  use="required"></xs:attribute>
+  </xs:complexType>
+
+  
+ 
+  <xs:complexType name="NgayLamViecType">
+    <xs:sequence>
+      <xs:element name="NhanVien" type="NhanVienType" maxOccurs="unbounded"></xs:element>
+    </xs:sequence>
+    <xs:attribute name="Ngay" type="xs:string"></xs:attribute>
+  </xs:complexType>
+
+  <xs:complexType name="ChamCongType">
+    <xs:sequence>
+      <xs:element name="NgayLamViec" type="NgayLamViecType" maxOccurs="31"></xs:element>
+    </xs:sequence>
+    <xs:attribute name="BoPhan" type="xs:string"></xs:attribute>
+  </xs:complexType>
+
+  <xs:complexType name="DSChamCongType" >
+    <xs:sequence>
+      <xs:element name="ChamCong" type="ChamCongType"></xs:element>
+    </xs:sequence>
+  </xs:complexType>
+
+  <xs:element name="DsChamCong" type="DSChamCongType"></xs:element>
+</xs:schema>

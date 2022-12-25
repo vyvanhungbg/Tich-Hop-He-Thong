@@ -1,0 +1,29 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="bai1"
+    targetNamespace="http://tempuri.org/bai1.xsd"
+    elementFormDefault="qualified"
+    xmlns="http://tempuri.org/bai1.xsd"
+    xmlns:mstns="http://tempuri.org/bai1.xsd"
+    xmlns:xs="http://www.w3.org/2001/XMLSchema">
+
+  <xs:simpleType name="diemType">
+    <xs:restriction base="xs:int">
+      <xs:maxExclusive value="10"></xs:maxExclusive>
+      <xs:minExclusive value="0"></xs:minExclusive>
+    </xs:restriction>
+  </xs:simpleType>
+
+  <xs:complexType name="monHocType">
+    <xs:sequence>
+      <xs:element type="xs:int" name="STT"></xs:element>
+      <xs:element type="xs:string" name="MonHoc"></xs:element>
+      <xs:element type="diemType" name="Lan1"></xs:element>
+      <xs:element type="diemType" name="Lan2"></xs:element>
+      <xs:element type="diemType" name="Lan3"></xs:element>
+      <xs:element type="diemType" name="CaNam"></xs:element>
+    </xs:sequence>
+  </xs:complexType>
+
+  <xs:element type="monHocType" name="MonHoc"></xs:element>
+  
+</xs:schema>

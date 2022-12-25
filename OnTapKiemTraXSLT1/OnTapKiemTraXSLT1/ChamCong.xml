@@ -1,0 +1,52 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<?xml-stylesheet type="text/xsl" href="ChamCong.xslt"?>
+<DsChamCong xmlns="http://tempuri.org/XMLSchema.xsd">
+  <ChamCong BoPhan="Sản Xuất">
+    <NgayLamViec Ngay="18/11/2022">
+      <NhanVien MaNV="S0001">
+        <CaLamViec>C1</CaLamViec>
+        <GioVao>05:59</GioVao>
+        <GioRa>15:00</GioRa>
+      </NhanVien>
+
+      <NhanVien MaNV="S0002">
+        <CaLamViec>C1</CaLamViec>
+        <GioVao>05:59</GioVao>
+        <GioRa>15:00</GioRa>
+      </NhanVien>
+
+      <NhanVien MaNV="S0003">
+        <CaLamViec>C3</CaLamViec>
+        <GioVao>05:59</GioVao>
+        <GioRa>15:00</GioRa>
+      </NhanVien>
+
+      <NhanVien MaNV="S0004">
+        <CaLamViec>C2</CaLamViec>
+        <GioVao>05:59</GioVao>
+        <GioRa>15:00</GioRa>
+      </NhanVien>
+    </NgayLamViec>
+
+    <NgayLamViec Ngay="19/11/2022">
+      <NhanVien MaNV="S0005">
+        <CaLamViec>C1</CaLamViec>
+        <GioVao>05:59</GioVao>
+        <GioRa>15:00</GioRa>
+      </NhanVien>
+
+      <NhanVien MaNV="S0006">
+        <CaLamViec>C1</CaLamViec>
+        <GioVao>05:59</GioVao>
+        <GioRa>15:00</GioRa>
+      </NhanVien>
+
+      <NhanVien MaNV="S0007">
+        <CaLamViec>C3</CaLamViec>
+        <GioVao>05:59</GioVao>
+        <GioRa>15:00</GioRa>
+      </NhanVien>
+
+    </NgayLamViec>
+  </ChamCong>
+</DsChamCong>
